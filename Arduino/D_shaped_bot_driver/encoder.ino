@@ -1,4 +1,4 @@
-void setupEncoders() {
+/*void setupEncoders() {
 
   right_count = 0;
   left_count = 0;
@@ -53,4 +53,4 @@ void encoder2B() {
   else                                                     {
     left_count = left_count - 1;
   }
-}
+}*/

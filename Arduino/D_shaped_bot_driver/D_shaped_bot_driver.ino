@@ -18,6 +18,7 @@
 #define Left_in1 34
 #define Left_in2 35
 #include <Wire.h>
+#include <Encoder.h>
 #include "robot_specs.h"
 
 volatile long right_count = 0;
@@ -34,7 +35,7 @@ int PWM_val2 = 0;
 void setup() 
 {
   Serial.begin(9600);
-  setupEncoders();  
+  //setupEncoders();  
   setupMotors();   
 }
 
